@@ -1,0 +1,14 @@
+Mock example: https://github.com/szhajdu/tdd-training
+
+Code coverage settings: Run > Edit Configurations > Test Runner options: --coverage-html ./test/_report
+
+We are supermarket sellers and we don't have a smart cashier to use, so we have to create one.
+We have 3 products to sell with the prices shown below:
+
+Product	    Price	Unit
+Apple	    32	kg
+Light	    15	year
+Starship	999.99	piece
+
+Our precious clients can buy any amount of any product. They have an infinite shopping basket.
+When the client finishes shopping, he/she puts his/her basket to the cashier, which calculates the total price of the products in the basket.
